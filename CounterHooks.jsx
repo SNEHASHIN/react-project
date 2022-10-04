@@ -37,6 +37,7 @@ export function CounterHooks() {
       <button onClick={incrementByFive}>increment by 5</button>
       <button onClick={handleDecrement}>decrement</button>
       <button onClick={() => setCount(0)}>reset</button>
+      
       <button onClick={handleName}>capitalize</button>
     </>
   );
